@@ -14,15 +14,7 @@
         "response": {
           "body_path": "/users.json"
         }
-      }
-    ]
-  },
-  {
-    "request": {
-      "http_method": "get",
-      "path": "/users"
-    },
-    "responses": [
+      },
       {
         "request": {
           "headers": {

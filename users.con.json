@@ -20,6 +20,27 @@
   {
     "request": {
       "http_method": "get",
+      "path": "/users"
+    },
+    "responses": [
+      {
+        "request": {
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "params": {
+            "search": "Albert"
+          }
+        },
+        "response": {
+          "body_path": "/users_from_search.json"
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "http_method": "get",
       "path": "/users/:id"
     },
     "responses": [

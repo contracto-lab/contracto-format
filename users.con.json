@@ -6,26 +6,28 @@
     },
     "responses": [
       {
-        "request": {
-          "headers": {
-            "Content-Type": "application/json"
-          }
-        },
         "response": {
           "body_path": "/users.json"
         }
       },
       {
         "request": {
-          "headers": {
-            "Content-Type": "application/json"
-          },
           "params": {
             "search": "Albert"
           }
         },
         "response": {
-          "body_path": "/users_from_search.json"
+          "body_path": "/users/search.json"
+        }
+      },
+      {
+        "request": {
+          "headers": {
+            "Content-Type": "application/xml"
+          }
+        },
+        "response": {
+          "body_path": "/users.xml"
         }
       }
     ]
@@ -38,9 +40,6 @@
     "responses": [
       {
         "request": {
-          "headers": {
-            "Content-Type": "application/json"
-          },
           "params": {
             "id": 1
           }
@@ -51,9 +50,6 @@
       },
       {
         "request": {
-          "headers": {
-            "Content-Type": "application/json"
-          },
           "params": {
             "id": 2
           }

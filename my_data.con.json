@@ -1,0 +1,22 @@
+{
+  "request": {
+    "http_method": "get"
+    "path": "/my/data"
+    "meta": {
+      "request": {
+        
+      },
+      "response": {
+        "body": {
+          "type": "object",
+          "embedded": [
+            {
+              "name": "id",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

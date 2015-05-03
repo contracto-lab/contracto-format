@@ -1,0 +1,104 @@
+[
+  {
+    "schema": {
+      "request": {
+        "method": "get",
+        "path": "/translations/from_{from}/to_{to}/{word}"
+      }
+    },
+    "examples": [
+      {
+        "request": {
+          "params": {
+            "from": "eng",
+            "to": "pol",
+            "word": "rose"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_eng_pol_rose.json"
+        }
+      },
+      {
+        "request": {
+          "params": {
+            "from": "pol",
+            "to": "eng",
+            "word": "bieg"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_pol_eng_bieg.json"
+        }
+      }
+    ]
+  },
+  {
+    "schema": {
+      "request": {
+        "method": "get",
+        "path": "/translations/{from}_from/{to}_to/{word}"
+      }
+    },
+    "examples": [
+      {
+        "request": {
+          "params": {
+            "from": "eng",
+            "to": "pol",
+            "word": "rose"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_eng_pol_rose.json"
+        }
+      },
+      {
+        "request": {
+          "params": {
+            "from": "pol",
+            "to": "eng",
+            "word": "bieg"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_pol_eng_bieg.json"
+        }
+      }
+    ]
+  },
+  {
+    "schema": {
+      "request": {
+        "method": "get",
+        "path": "/translations/{from}/{to}/{word}"
+      }
+    },
+    "examples": [
+      {
+        "request": {
+          "params": {
+            "from": "eng",
+            "to": "pol",
+            "word": "rose"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_eng_pol_rose.json"
+        }
+      },
+      {
+        "request": {
+          "params": {
+            "from": "pol",
+            "to": "eng",
+            "word": "bieg"
+          }
+        },
+        "response": {
+          "body_path": "/translations/get_translations_by_from_and_to_and_word_pol_eng_bieg.json"
+        }
+      }
+    ]
+  }
+]

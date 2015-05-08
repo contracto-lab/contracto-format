@@ -1,6 +1,6 @@
 # Contracto Format
 
-![EL Passion](https://avatars.githubusercontent.com/u/98255?v=3&s=16) Sponsored by [EL Passion](http://www.elpassion.com/)
+[![EL Passion](https://img.shields.io/badge/Supported%20by-EL%20Passion-36b452.svg)](https://github.com/elpassion)
 
 This repository is a part of [__Contracto__](https://github.com/contracto-lab) project.
 

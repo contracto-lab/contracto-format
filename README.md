@@ -4,4 +4,4 @@
 
 This repository is a part of [__Contracto__](https://github.com/contracto-lab) project.
 
-It contains [definition](https://github.com/contracto-lab/contracto-format/wiki/What-is-contract) of contract and contract [example](https://github.com/kv109/contracto-lab/contract/).
+It contains [definition](https://github.com/contracto-lab/contracto-format/wiki/What-is-contract) of contract and contract [example](https://github.com/contracto-lab/contracto-format).
